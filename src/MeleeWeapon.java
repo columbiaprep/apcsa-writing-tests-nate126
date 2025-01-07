@@ -105,7 +105,7 @@ public class MeleeWeapon extends Weapon{
     public void setWisMod(int wisMod) {
         this.wisMod = wisMod;
     }
-    public int getChaModMod(){
+    public int getChaMod(){
         return this.chaMod;
 
     }
@@ -115,6 +115,8 @@ public class MeleeWeapon extends Weapon{
 
     public boolean testAll(){
         MeleeWeapon weapon = new MeleeWeapon("Sword", 10, 15, 30.5, 2.5, 7);
+        //How do I fix error?
+
 
         weapon.setType("Axe");
         if (!weapon.getType().equals("Axe")) return false;

@@ -12,9 +12,9 @@ public class Boots {
         this.uncomfortableBoots = uncomfortableBoots;
         this.typeOfBoot = typeOfBoot;
         this.bootWithShoelaces = bootWithShoelaces;
-        this.revisedStrength = 10;
-        this.revisedDexterity = 10;
-        this.revisedCharisma = 10;
+        this.revisedStrength = 12;
+        this.revisedDexterity = 14;
+        this.revisedCharisma = 16;
     }
 
     public int getRevisedStrength() {
